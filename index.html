@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Google API Test</title>
+
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+        <h1>Test Google API</h1>
+        <form>
+          <div class="form-group">
+            <label for="first" class="col-xs-2 control-label"
+              >First Zipcode</label
+            >
+            <div class=>
+              <input type="text" id="from"  />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="second" class="col-xs-2 control-label"
+              >Second Zipcode</label
+            >
+            <div>
+              <input type="text" id="to" />
+            </div>
+          </div>
+        </form>
+
+        <button onclick="calcRoute();">
+          Submit
+        </button>
+      <div class="form-group">
+        <form method="get" action="testpage.html">
+          <input type="text" name="testValue" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div>
+        <div id="googleMap"></div>
+        <div id="output"></div>
+      </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHW8PbEbKtQp-77ev794Bews0HezrJRqA&libraries=places"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

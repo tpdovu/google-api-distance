@@ -1,0 +1,24 @@
+﻿body {
+  text-align: center;
+}
+
+body .form-group {
+  margin: 20px;
+}
+
+/*map*/
+#googleMap {
+  width: 50%;
+  height: 400px;
+  margin: 10px auto;
+}
+
+/*output box*/
+#output {
+  text-align: center;
+  font-size: 3em;
+}
+
+.error {
+  color: red;
+}
